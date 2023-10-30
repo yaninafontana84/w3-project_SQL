@@ -1,12 +1,11 @@
 QUERIES
 
-1) List actors and their film count, ordered by the number of films they've appeared in:
+1) List actors and their film count, ordered by the number of films they´ve appeared in:
 SELECT a.actor_id, CONCAT(a.first_name, ' ', a.last_name) AS actor_name, COUNT(af.film_id) AS film_count
 FROM actor a
 LEFT JOIN actor_film af ON a.actor_id = af.actor_id
 GROUP BY a.actor_id
 ORDER BY film_count DESC;
-
 
 2) List actors who have appeared in more than 10 films:
 SELECT a.actor_id, CONCAT(a.first_name, ' ', a.last_name) AS actor_name, COUNT(af.film_id) AS film_count
@@ -14,7 +13,6 @@ FROM actor a
 LEFT JOIN actor_film af ON a.actor_id = af.actor_id
 GROUP BY a.actor_id
 HAVING film_count > 10;
-
 
 3) Find the actor who appeared in the most films:
 SELECT a.actor_id, CONCAT(a.first_name, ' ', a.last_name) AS actor_name, COUNT(af.film_id) AS film_count
