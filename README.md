@@ -36,13 +36,13 @@ Se establecieron las relaciones entre las tablas
 
 Se creó un diagrama entidad-relación para visualizar la estructura de la base de datos y las relaciones entre las tablas.
 
-![Imagen local](images/diagramaER)
+![Imagen local](images/diagramaER.jpeg)
 
 ### Consultas SQL Ejecutadas
 
 Aquí se muestran las consultas SQL que se ejecutaron:
 
-![Imagen local](images/queries)
+![Imagen local](images/queries.jpeg)
 
 ## Bonus
 
@@ -50,8 +50,8 @@ Además de las tablas mencionadas, también se crearon las siguientes tablas:
 
 ### Creación de la tabla "store"
 
-![Imagen local](images/store)
+![Imagen local](images/store.jpeg)
 
 ### Creación de la tabla “customer”
 
-![Imagen local](images/customer)
+![Imagen local](images/customer.jpeg)
